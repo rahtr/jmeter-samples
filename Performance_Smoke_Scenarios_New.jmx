@@ -278,7 +278,7 @@ if (avg != null)
 else
    log.warn(&quot;avg is null&quot;);
 log.info(&quot;Average time: &quot;+ average);
-if(average &gt; 10000){
+if(average &gt; 100){
 	Failure = true;
 	FailureMessage = &quot;Average response time is more than threshold!&quot;;
 	
